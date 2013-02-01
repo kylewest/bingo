@@ -1,0 +1,43 @@
+html, body, table, tbody { width: 100%; height: 100%;}
+table { border-collapse: collapse;}
+tbody {height:100%;}
+tr {height: 20%;}
+td {text-align: center; font-weight: bold;
+  color: rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  font-size: 48px; width:6.25%; height: 20%;
+vertical-align: middle; }
+
+td.letter {
+  border: 1px solid #222;
+  color: #FFF;
+  background: #101010;
+  background: -webkit-linear-gradient(top,  #101010 0%,#000000 100%);
+  /* background: #222; background: -webkit-linear-gradient(top,  #222 0%,#000000 100%); */
+}
+td.number {
+  /* border: 1px solid #60b3e2; */
+
+  border-bottom: 1px solid #44a5dc; border-right: 1px solid #359eda;
+  background: #258dc8;
+  background: -webkit-linear-gradient(top,  #258dc8 0%,#2079ab 100%);
+}
+/* table tbody tr:nth-child(even) {  */
+/* background: #258dc8; */
+/* background: -webkit-linear-gradient(top,  #258dc8 0%,#2079ab 100%); */
+/* } */
+/* table tbody tr:nth-child(even) td.number {  */
+/* border-bottom: 1px solid #9aceec; border-right: 1px solid #9aceec; */
+/* } */
+
+td.number.clicked {
+
+  color: #2079ab;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+  /* color: #666; */
+  /* text-shadow: 1px 1px 1px #FFF; */
+  background: url(../images/check.png) 50% 50% no-repeat, -webkit-linear-gradient(top, #333 0%, #212121 50%);
+
+  /* background: #101010; */
+  /* background: -webkit-linear-gradient(top,  #101010 0%,#000000 100%); */
+}
